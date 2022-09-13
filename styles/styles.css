@@ -94,6 +94,19 @@ a    {
     color: #595959;
 }
 
+.icon-link {
+    transition-duration: 500ms;
+        transition-timing-function: linear;
+}
+
+.project-item:hover .icon-link {
+    transform: rotate(360deg);
+}
+
+.icon-link:hover{
+    transform: rotate(360deg);
+}
+
 a   {
 
     margin-left: 10px;
