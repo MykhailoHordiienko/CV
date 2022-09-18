@@ -4,6 +4,11 @@ body   {
         background-color: #E5E5E5;
 }
 
+ul  {
+    padding: 0;
+    margin: 0;
+}
+
 /* main styles */
 
 .main   {
@@ -246,7 +251,58 @@ a   {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #565F6B;
+    color: #ffffff;
+}
+
+/* media links...... */
+
+.media-list {
+    padding: 0;
+    list-style: none;
+}
+
+.media-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.media
+a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.media-icon-link {
+    fill: #FFFFFF;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+}
+
+.media-bracket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    
+}
+
+.media-item:not(:last-child)    {
+    margin-bottom: 10px;
+}
+
+.media-item:hover .media-icon-link {
+    transform: rotate(360deg);
+}
+
+.media-icon-link:hover {
+    transform: rotate(360deg);
 }
 
 .tech-skills-list    {
