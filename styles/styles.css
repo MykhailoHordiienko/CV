@@ -261,18 +261,9 @@ a   {
     list-style: none;
 }
 
-.media-item {
+.media-item > a {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
-}
-
-.media
-a {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
