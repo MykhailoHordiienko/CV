@@ -247,6 +247,7 @@ a   {
 }
 
 .contact-link   {
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -262,6 +263,7 @@ a   {
 }
 
 .media-item > a {
+    text-decoration: none;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
