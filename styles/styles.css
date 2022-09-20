@@ -24,7 +24,7 @@ ul  {
 .main-content   {
 background-color: #FFFFFF;
 box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-padding: 105px 90px;
+padding: 65px 50px;
 
 }
 
@@ -79,45 +79,10 @@ width: 400px;
 
 .project-list   {
     padding: 0;
-    margin-left: 15px;
+    list-style: none;
 }
 
-.project-item   {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
-}
-
-.project,
-a    {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-}
-
-.icon-link {
-    transition-duration: 500ms;
-        transition-timing-function: linear;
-}
-
-.project-item:hover .icon-link {
-    transform: rotate(360deg);
-}
-
-.icon-link:hover{
-    transform: rotate(360deg);
-}
-
-a   {
-
-    margin-left: 10px;
-}
-
-.project-bracket    {
+.link-ref {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
