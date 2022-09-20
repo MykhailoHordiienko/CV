@@ -2,5 +2,6 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.fontSize": 14,
-  "editor.wordWrap": "wordWrapColumn"
+  "editor.wordWrap": "off",
+  "editor.wordWrapColumn": 80
 }
